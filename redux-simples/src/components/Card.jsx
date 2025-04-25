@@ -13,7 +13,7 @@ export default props => {
     return (
         <div className={`Card ${getColor(props)}`}>
             <div className='Header'>
-                <span className='Title'>{props.tittle}</span>
+                <span className='Title'>{props.title}</span>
             </div>
             <div className='Content'>
                 {props.children}
